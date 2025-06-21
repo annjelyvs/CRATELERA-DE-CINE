@@ -1,3 +1,4 @@
+#ronda3
 print("CARTELERA DE CINE")
 
 
@@ -16,7 +17,7 @@ if "intelestelar" in peliculas:
 else:
     print("no se cumple")
     
-#se añade una sala     
+#"se añade una sala     
 if "sala3" in salas:
        salas.append("sala VIP")
        print(f"lista de salas actualizada{salas}")
@@ -52,7 +53,6 @@ funcion_especial=()
 
 #se crea una tupla
 if "sala VIP" in salas_disponibles:
-    funcion_especial=()
     funcion_especial=("Duna","sala VIP ")
     print(f"se actualizo las salas disponibles y quedo {salas_disponibles}")
 else:
@@ -66,7 +66,6 @@ else:
      print("no se cumples")
      
 #se crea un diccionario
-programacion={}
 if "3D" in estrenos:
     programacion={"peliculas":"avartar2",
                          "sala":"sala2",
@@ -76,7 +75,7 @@ else:
      print("no se cumple")
      
 #se añade una clave 
-if "programacion" == programacion:
+if "programacion" in locals():
     programacion.append({"hora":"6:30 PM"})
     print(f"acualizacion del diccionario {programacion}")
 else:
@@ -96,4 +95,4 @@ if "titanic" not in peliculas: # el not in no ayuda a confirmar si algo esta o n
 else:
      print("la condicion no se cumple")
      
-# print(f"actualizacion de peliculas{peliculas}, actualizacion de salas {salas}, actualizacion de salas_disponibles {salas_disponibles}, tuplas {funcion_especial},diccionario{programacion}")
+print(f"actualizacion de peliculas{peliculas}, actualizacion de salas {salas}, actualizacion de salas_disponibles {salas_disponibles}")
