@@ -1,5 +1,5 @@
 #ronda 1 
-print("deterctor de signos")# documeto 
+print("deterctor de signos") 
 
 
 num1=int(input("ingrese un numero negativo o positivo: "))
